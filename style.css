@@ -1,0 +1,22 @@
+input {
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    overflow: hidden;
+   padding-left: 36px;
+    border-radius: 18px;
+    height: 36px;
+    width: 36px;
+    transition: all 0.2s linear;
+    background: url("./585e4adacb11b227491c3392.png") no-repeat 10px/16px;
+}
+
+input:focus {
+    width: 200px;
+    padding: 10px 10px 10px 36px;
+}
+
+input:not(:placeholder-shown) {
+    width: 200px;
+    padding: 10px 10px 10px 36px;
+}
